@@ -24,12 +24,16 @@
 
                 // 配列の内容を項目毎に出力
                 // ここにコードを書く
+                for(let id in items){
+                    console.log(id + " " + items[id]);
+                }
                 console.log(""); // 空行の出力
             }
 
             // 商品購入の関数
             function buyItem(no) {
                 // ここにコードを書く
+
                 showItemList(); // 商品一覧の表示関数呼び出し
             }
 
